@@ -1,0 +1,22 @@
+  <h3>Edit Book</h3>
+  <form [formGroup]="bookForm" (submit)="updateBook()" class="form-inline mb-4">
+  <label class="sr-only" for="name">Name</label>
+  <div class="input-group mb-2 mr-sm-2">
+    <input type="text" class="form-control" formControlName="name" placeholder="name"/>
+  </div>
+  <label class="sr-only" for="name">Name</label>
+  <div class="input-group mb-2 mr-sm-2">
+    <textarea class="form-control" formControlName="description" placeholder="description">
+
+    </textarea>
+  </div>
+  <label class="sr-only" for="count">Count</label>
+  <div class="input-group mb-2 mr-sm-2">
+    <input type="text" class="form-control" formControlName="count" placeholder="count"/>
+  </div>
+  <label class="sr-only" for="author">Author</label>
+  <div class="input-group mb-2 mr-sm-2">
+    <input type="text" class="form-control" formControlName="author" placeholder="author"/>
+  </div>
+  <button type="submit" class="btn btn-primary mb-2">Edit Book</button>
+</form>

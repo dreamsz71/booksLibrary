@@ -1,0 +1,18 @@
+{
+  "books": [
+    {
+      "name": "angular, redux learning",
+      "description": "complete guide about Redux store , actions, effects ",
+      "count": 10,
+      "author": "Deepak Vyas",
+      "id": 1
+    },
+    {
+      "name": "web development",
+      "description": "complete guide about web development ",
+      "count": 10,
+      "author": "Virat Vyas",
+      "id": 2
+    }
+  ]
+}
